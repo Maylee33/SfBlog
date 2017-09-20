@@ -57,6 +57,7 @@ class Post
     /**
      * On utilise la syntaxe camelCase
      * @ORM\ManyToOne(targetEntity="Author")
+     * @Assert\NotBlank
      */
     private $author;
 

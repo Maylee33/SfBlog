@@ -14,3 +14,16 @@ web_profiler:
 
 swiftmailer:
     disable_delivery: true
+
+security:
+    firewalls:
+        # replace 'main' by the name of your own firewall
+        main:
+            http_basic: ~
+
+# doctrine:
+#     dbal:
+#         host:     localhost
+#         dbname:   cosmos_blog_test
+#         user:     root
+#         password: password
